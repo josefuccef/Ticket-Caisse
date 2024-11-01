@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Caisse Mr Bricolage</title>
+  <link rel="stylesheet" href="style.css">
+  <style></style>
+
+</head>
+<body>
+  
+  <!-- partial:index.partial.html NavBar -->
+  <div class="contunaire-nav">
+    
+  <nav class="top-right open">
+    <a class="disc l1">
+      <div class="clear-data">Clear Data</div>
+    </a>
+    <a class="disc l2">
+      <div>Delet Product</div>
+    </a>
+    <a class="disc l3">
+      <div onclick="printe()">Inprumie</div>
+    </a>
+    <a class="disc l4">
+      <div>Help</div>
+    </a>
+    <a class="disc l5 toggle">
+      Menu
+    </a>
+  </nav>
+  </div>
+
+  <!-- partial -->
+  
+<!-- Fin index.partial.html NavBar-->
+<!-- heading starts Input Information -->
+<hgroup class="heading">
+<h1 class="major"><img src="8.jpg" alt="">design py <span>JosEf</span></h1>
+</hgroup> 
+<!-- end heading -->
+
+<!-- main content --> 
+
+<form class="checkout">
+    <div class="checkout-header">
+      <h1 class="checkout-title">
+        <img class="img-logo" src="1.png" alt="Mr brico">
+        <span class="checkout-price">by jo</span>
+      </h1>
+    </div>
+    <p>
+   <input type="text" class="checkout-input checkout-name input-leble" placeholder="Leble produit" autofocus maxlength="20" >
+   
+      <input type="number" class="checkout-input checkout-exp input-qte" placeholder="QTE" >
+      
+      <input type="number" class="checkout-input checkout-exp input-prix" placeholder="prix" >
+    </p>
+    <p>
+      <input type="number" class="checkout-input checkout-card input-gen" placeholder="Gen code produit" maxlength="20" >
+      <select class="checkout-input checkout-cvc input-caisse" placeholder="Caisse">
+      <option value="rania">rania</option>
+      <option value="ikram">ikram</option>
+      <option value="sokaina">sokaina</option>
+      </select>
+      
+    </p>
+    <p>
+    <input type="number" class="checkout-input checkout-card code-ticket" placeholder="Serie Ticket 13 Number" maxlength="13" minlength="13">
+    </p>
+    <p>
+      <input type="submit" value="Valide" class="checkout-btn btn">
+    </p>
+  </form>
+
+<!-- end of main cotnent -->
+<div class="container-ticket">
+<div class="ticket">
+<div class="head-ticket">
+	<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4eEIzbH-ADwxiZfqY6GSsT_mlDyVVpbWtra7SZ-ZGi0VkzP1av7v86hHKrptMGntpOZA4eHQXx5syyA-ExlxDc8xMRikB9vussjABlTzBLG4keuysRGSSwrjj_d-HvY0S6ZTGZtf6X8KY76fHHh_hbi5s29VRFqNdlig9quDoIKr0pGsevj_GRl1lJeHu/s1600/PhotoRoom-20240301_183741.png" alt="1.">
+	<p class="x-bold">Mr Bricolage </p>
+	<p class="bold">Mr Bricolage Marrakech</p>
+	<p class="bold">Tél: 05 25 060 240/241</p>
+	<p class="bold">IF: 2202961 RC 129997</p>
+	<p class="bold p1">TP : 47924641  ICE : 001525045000091</p>
+	<p class="ope" dir="ltr"></p>
+	<br>
+	<p class="montant">Montant TTC DHS</p>
+</div>
+<div class="hr-lg"></div>
+<div class="body-ticket">
+<div class="produits">
+<div class="col2">
+	</div>
+	<div class="section">
+  </div>
+<div class="hr-lg"></div>
+		<div class="col2A ">
+		<p>Total</p>
+		<p>DHS</p>
+		<h2 class="total">17,94</h2>
+</div>
+<div class="cols">
+		<p>DONT DROITS DE TIMBRE :0,04</p>
+</div>
+</div>
+			<div class="hr-lg"></div>
+			<div class="carte">
+			 <div class="tva col2 col3">
+			  <p>Taux TVA</p>
+			  <p>HT</p>
+			  <p>TVA</p>
+			  <p>TTC</p>
+			 </div>
+
+				<div class="tva col2 col3">
+					<p>20,00%</p>
+					<p>14,92</p>
+					<p>2,98</p>
+					<p class="ttc">17,90</p>
+				</div>
+				<br>
+				<div class="tva col2 col3">
+				 <p>Espaces</p>
+					<p>20,00</p>
+				</div>
+					<div class="tva col2 col3">
+					 <p>Dont droit de timbre</p>
+						<p>0,04</p>
+					</div>
+					<div class="tva col2 col3">
+						<p>Rendu</p>
+						<p>2,06</p>
+					</div>
+					<p class="total-show col2 col3">Nb Article(s) : 0</p>
+					<p class=" col2 col3">N° de ticket:</p>
+					<svg class="barcode" jsbarcode-format="ean13" jsbarcode-value="1000131725598" jsbarcode-textmargin="0" jsbarcode-fontoptions="bold" jsbarcode-height="50px">
+					</svg>
+					<!-- partial -->
+					<script src='https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.0/barcodes/JsBarcode.codabar.min.js'></script>
+					<script src='https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.0/barcodes/JsBarcode.ean-upc.min.js'></script
+				<br>
+		 	</div>
+		 	<div class="p1 prix">
+				  <p>Mag :00002 Poste :003 </p>
+				  <p class="date"></p>
+		 	</div>
+		</div>
+		<div class="footer-ticket">
+			<p class="title-footer">Nous vous remercions<br>de votre visite</p>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+
+<!-- partial:index.partial.html -->
+<input id="toggle-alert" type="checkbox" />
+<div class="alert hide">
+    <img src="6.png" class="title">
+  <p class="message">Veuillez saisir les informations suivantes : *Informations obligatoires. Name produit* : Informations obligatoires. Qentiter* : Information obligatoire. Prix Du Produit* : Informations obligatoires. Code Produit*</p>
+  <div class="actions">
+    <button class="default">
+      <label class="Cancel" for="toggle-alert">Cancel</label>
+    </button>
+    <button class="primary">
+      <label class="ok" for="toggle-alert">Ok</label>
+    </button>
+  </div>
+</div>
+<!-- partial -->
+<script src="JsBarcode.all.min.js"></script>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
